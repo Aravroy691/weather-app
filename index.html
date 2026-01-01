@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content=" Local Smart Bihar WeatherApp : by Arav Roy">
+        <link rel="icon" type="image/png" href="static/images/weather.png">
+        <title> WeatherApp : by Arav Roy</title>
+        <link rel="stylesheet" href="static/css/index.css">
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="static/images/weather.png" alt="Logo">
+            </div>
+
+            <div class="search-bar">
+                <form id="search-form">
+                    <input required class="search-box" type="text" autocomplete="off"  name="search-query" id="search-bar" placeholder="Search City for Weather ...">
+                    <button class="search-button" type="submit">
+                        <img src="static/images/search.png" alt="🍳">
+                    </button>
+                </form>
+            </div>
+        </nav>
+
+        <div class="container">
+            <section class="content">
+                <div class="location">
+                    <div class="city">
+                        <h3 id="city"> Begusarai</h3>
+                    </div>
+                    <div class="timezone">
+                        <h4 id="zone"> Wednesday , 31 December 2025 </h4>
+                        <h4 id="time"> 20:26:25 P.M. </h4>
+                    </div>
+                </div>
+                <div class="weather">
+                    <div class="temp">
+                        <h1 id = "temp"> 15 °C</h1>
+                    </div>
+                    <div class="status">
+                        <h2 id="status"> Sunny </h2>
+                        <div class="range-low-high">
+                            <h3 id="range"> 13°c / 16°c </h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script src="static/js/index.js"></script>
+    </body>
+</html>
